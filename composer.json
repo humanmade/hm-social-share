@@ -1,0 +1,19 @@
+{
+    "name": "humanmade/hm-social-share",
+    "description": "A reusable Gutenberg block for social share button.",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "HumanMade\\HM_Social_Share\\": "src/"
+        }
+    },
+    "extra": {
+        "wordpress-plugin": true
+    },
+    "minimum-stability": "stable"
+}

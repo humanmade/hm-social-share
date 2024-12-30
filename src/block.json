@@ -1,0 +1,35 @@
+{
+	"apiVersion": 2,
+	"name": "hm-blocks/hm-share-article-block",
+	"title": "HM Social Share",
+	"category": "widgets",
+	"icon": "share",
+	"description": "A block to share articles on various social platforms.",
+	"keywords": [ "share", "social", "article" ],
+	"attributes": {
+		"enableTwitter": {
+			"type": "boolean",
+			"default": true
+		},
+		"enableFacebook": {
+			"type": "boolean",
+			"default": true
+		},
+		"enableLinkedIn": {
+			"type": "boolean",
+			"default": true
+		},
+		"enableEmail": {
+			"type": "boolean",
+			"default": true
+		},
+		"enableCopyLink": {
+			"type": "boolean",
+			"default": true
+		}
+	},
+	"editorScript": "file:./build/edit.js",
+	"style": "file:./build/style.css",
+	"editorStyle": "file:./build/editor.css",
+	"renderCallback": "hm_render_share_block"
+}
